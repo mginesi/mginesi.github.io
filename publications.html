@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publications</title>
+    <meta name="description" content="Personal academic website of michele.">
+    <style>
+        :root {
+          --ink: #1e293b;
+          --muted: #64748b;
+          --accent: #0f766e;
+          --paper: #f8fafc;
+          --line: #dbe3ea;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+          margin: 0;
+          color: var(--ink);
+          background: var(--paper);
+          font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, sans-serif;
+        }
+
+        main {
+          width: min(900px, calc(100% - 2rem));
+          margin: 3rem auto;
+          background: white;
+          padding: 2.5rem;
+          border: 1px solid var(--line);
+          border-radius: 12px;
+        }
+
+        h1, h2 { line-height: 1.2; }
+
+        h1 { margin: 0 0 0.3rem; }
+
+        h2 {
+          margin-top: 2.2rem;
+          padding-top: 1.2rem;
+          border-top: 1px solid var(--line);
+        }
+
+        .subtitle { color: var(--muted); margin-top: 0; }
+
+        a { color: var(--accent); }
+
+        nav a {
+          margin-right: 1rem;
+          text-decoration: none;
+          font-weight: 600;
+        }
+
+        li { margin: 0.4rem 0; }
+
+        footer {
+          margin-top: 2.5rem;
+          color: var(--muted);
+          font-size: 0.9rem;
+        }
+    </style>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="index.html">Home</a>
+        <a class="active-language"
+            href="index.html"
+            hreflang="en"
+            lang="en"
+            aria-current="page">
+            <span class="flag" aria-hidden="true">🇬🇧</span>
+            <span>English</span>
+        </a>
+        <a class="active-language"
+            href="it/publications.html"
+            hreflang="it"
+            lang="it"
+            aria-current="page">
+            <span class="flag" aria-hidden="true">🇮🇹</span>
+            <span>Italian</span>
+        </a>
+        <div class="nav-links">
+            <a href="publications.html">Publications</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="communication.html">Communication</a>
+            </div>
+        </nav>
+    </header>
+</head>
+
+<body>
+
+  <main class="container page-content">
+    <p class="eyebrow"></p>
+    <h1>Publications</h1>
+
+    <section>
+        <h2>Articles</h2>
+
+        <article class="item">
+            <h3>Generalization of Auto-Regressive Hidden Markov Models to Non-Linear Dynamics and Unit Quaternion Observation Space</h3>
+            <p class="meta">Ginesi, Michele, and Paolo Fiorini. IEEE Robotics and Automation Letters 8.9 (2023): 5847-5853.</p>
+            <p>
+              <a href="https://doi.org/" target="_blank" rel="noopener">paper (open access)</a>
+              ·
+              <a href="https://github.com/mginesi/nl_arhmm" target="_blank" rel="noopener">python code</a>
+            </p>
+        </article>
+
+        <article class="item">
+            <h3>Overcoming some drawbacks of Dynamic Movement Primitives</h3>
+            <p class="meta">Ginesi, Michele, Nicola Sansonetto, and Paolo Fiorini. Robotics and Autonomous Systems 144 (2021): 103844.</p>
+            <p>
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921889021001299" target="_blank" rel="noopener">paper</a>
+              ·
+              <a href="https://arxiv.org/pdf/1908.10608" target="_blank" rel="noopener">preprint</a>
+              ·
+              <a href="https://github.com/mginesi/dmp_pp" target="_blank" rel="noopener">python code</a>
+            </p>
+        </article>
+
+        <article class="item">
+            <h3>Dynamic Movement Primitives: Volumetric Obstacle Avoidance Using Dynamic Potential Functions</h3>
+            <p class="meta">Ginesi, Michele, et al. Journal of Intelligent & Robotic Systems 101.4 (2021): 79.</p>
+            <p>
+              <a href="https://link.springer.com/article/10.1007/s10846-021-01344-y" target="_blank" rel="noopener">paper (open access)</a>
+              ·
+              <a href="https://github.com/mginesi/dmp_vol_obst" target="_blank" rel="noopener">python code</a>
+            </p>
+        </article>
+
+    </section>
+
+    <section>
+        <h2>Conference proceedings</h2>
+
+        <article class="item">
+            <h3>Imitationflow: Learning deep stable stochastic dynamic systems by normalizing flows</h3>
+            <p class="meta">Urain, Julen, et al. 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2020.</p>
+            <p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9341035" target="_blank" rel="noopener">paper</a>
+                ·
+              <a href="https://arxiv.org/pdf/2010.13129" target="_blank" rel="noopener">preprint</a>
+            </p>
+        </article>
+
+        <article class="item">
+            <h3>Autonomous task planning and situation awareness in robotic surgery</h3>
+            <p class="meta">Ginesi, Michele, et al. 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2020.</p>
+            <p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9341382" rel="noopener">paper</a>
+                ·
+              <a href="https://arxiv.org/pdf/2004.08911" target="_blank" rel="noopener">preprint</a>
+            </p>
+        </article>
+
+        <article class="item">
+            <h3>Dynamic Movement Primitives: Volumetric Obstacle Avoidance</h3>
+            <p class="meta">Ginesi, Michele, et al. 2019 19th international conference on advanced robotics (ICAR). IEEE, 2019.</p>
+            <p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/8981552" target="_blank" rel="noopener">paper</a>
+                ·
+              <a href="https://iris.univr.it/bitstream/11562/1018548/1/root%20%282%29.pdf" target="_blank" rel="noopener">preprint</a>
+              ·
+              <a href="https://github.com/mginesi/dmp_vol_obst" target="_blank" rel="noopener">python code</a>
+            </p>
+        </article>
+
+        <article class="item">
+            <h3>A knowledge-based framework for task automation in surgery</h3>
+            <p class="meta">Ginesi, Michele, et al. 2019 19th International Conference on Advanced Robotics (ICAR). IEEE, 2019.</p>
+            <p>
+              <a href="https://scholar.google.it/scholar?oi=bibs&cluster=931614727516247182&btnI=1&hl=it" target="_blank" rel="noopener">paper</a>
+                ·
+              <a href="https://iris.univr.it/bitstream/11562/1018544/1/ICAR_revised_2019.pdf" target="_blank" rel="noopener">preprint</a>
+            </p>
+        </article>
+
+    </section>
+
+    <section>
+        <h2>Book chapters</h2>
+
+        <article class="item">
+          <h3>Learning Surgical Gestures from Data</h3>
+          <p class="meta">Ginesi, M. (2026). Learning Surgical Gestures from Data. In: Fiorini, P. (eds) Towards Autonomous Robotic Surgery. Springer Tracts in Advanced Robotics, vol 161. Springer</p>
+          <p>
+            <a href="https://doi.org/10.1007/978-3-032-04247-7_5" target="_blank" rel="noopener">chapter</a>
+              ·
+            <a href="https://link.springer.com/book/10.1007/978-3-032-04247-7" target="_blank" rel="noopener">book</a>
+          </p>
+        </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © Michele Ginesi, Ph.D.
+    </div>
+  </footer>
+</body>
+</html>

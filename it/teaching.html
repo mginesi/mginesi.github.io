@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publications</title>
+    <meta name="description" content="Personal academic website of michele.">
+    <style>
+        :root {
+          --ink: #1e293b;
+          --muted: #64748b;
+          --accent: #0f766e;
+          --paper: #f8fafc;
+          --line: #dbe3ea;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+          margin: 0;
+          color: var(--ink);
+          background: var(--paper);
+          font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, sans-serif;
+        }
+
+        main {
+          width: min(900px, calc(100% - 2rem));
+          margin: 3rem auto;
+          background: white;
+          padding: 2.5rem;
+          border: 1px solid var(--line);
+          border-radius: 12px;
+        }
+
+        h1, h2 { line-height: 1.2; }
+
+        h1 { margin: 0 0 0.3rem; }
+
+        h2 {
+          margin-top: 2.2rem;
+          padding-top: 1.2rem;
+          border-top: 1px solid var(--line);
+        }
+
+        .subtitle { color: var(--muted); margin-top: 0; }
+
+        a { color: var(--accent); }
+
+        nav a {
+          margin-right: 1rem;
+          text-decoration: none;
+          font-weight: 600;
+        }
+
+        li { margin: 0.4rem 0; }
+
+        footer {
+          margin-top: 2.5rem;
+          color: var(--muted);
+          font-size: 0.9rem;
+        }
+    </style>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="index.html">Home</a>
+        <a class="active-language"
+            href="../teaching.html"
+            hreflang="en"
+            lang="en"
+            aria-current="page">
+            <span class="flag" aria-hidden="true">🇬🇧</span>
+            <span>Inglese</span>
+        </a>
+        <a class="active-language"
+            href="teaching.html"
+            hreflang="it"
+            lang="it"
+            aria-current="page">
+            <span class="flag" aria-hidden="true">🇮🇹</span>
+            <span>Italiano</span>
+        </a>
+        <div class="nav-links">
+            <a href="publications.html">Pubblicazioni</a>
+            <a href="teaching.html">Didattica</a>
+            <a href="communication.html">Divulgazione</a>
+            </div>
+        </nav>
+    </header>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Appunti</h1>
+        <p>
+            Qui si trovano vari appunti scritti per studio personale o come materiale dei corsi in cui ero docente o tutor.
+        </p>
+      <!--
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#software">Software</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      -->
+    </header>
+
+    <section id="classes">
+        <h2>Corsi</h2>
+        <p>
+          Dispene ufficiali dei corsi che ho tenuto come professore all'Università di Verona
+        </p>
+        <article class="item">
+            <h3>Algebra Lineare</h3>
+            <p class="meta">Dspense ufficiali del corso <i>Algebra Lineare e Geometria</i> sulla parte di algebra lineare. Laurea triennale in Ingegneria dei Sistemi Medicali per la Persona, aa 2021-2022</p>
+                <a class="pdf-button"
+                href="assets/lecture_notes/main_note_al.pdf"
+                download="dispense_algebra_lineare.pdf">
+                download [ita]
+                </a>
+        </article>
+        <article class="item">
+            <h3>Analisi 2</h3>
+            <p class="meta">Dispense ufficiali del modulo di esercizi per il corso di <i>Analis 2</i>. Corso tenuto negli aa 2022/2023 e 2023/2024 per la laurea triennale in Matematica Applicata</p>
+                <a class="pdf-button"
+                href="assets/lecture_notes/main_note_a2ex.pdf"
+                download="dispense_exr_analisi_2.pdf">
+                download [ita]
+                </a>
+        </article>
+    </section>
+    <section id="tutor">
+        <h2>Tutorati</h2>
+        <p>
+          Note per i corsi cui ho fatto da tutor
+        </p>
+        <article class="item">
+            <h3>Metodi Numerici per le euqazioni differenziali</h3>
+            <p class="meta">Breve riassunto dei concetti proncipali del corso</p>
+                <a class="pdf-button"
+                href="assets/lecture_notes/Appunti_tutorate_metodi.pdf"
+                download="appunti_tutorat_metodi_numerici_eqdiff.pdf">
+                download [ita]
+                </a>
+        </article>
+    </section>
+    <section id="pers notes">
+        <h2>Appunti Personali</h2>
+        <p>
+          Appunti presi mentre studiavo </p>
+        <article class="item">
+            <h3>Advanced Numerical Analysis 2</h3>
+            <p class="meta">Appunti personali per il corso <i>Advanced Numerical Analysis 2</i>, su elementi finiti per equazioni alle derivate parziali </p>
+                <a class="pdf-button"
+                href="assets/lecture_notes/ANA2_nodtes.pdf"
+                download="notes_advanced_numerical_analysis_2.pdf">
+                download [eng]
+                </a>
+        </article>
+    </section>
+
+    <footer>
+      © Michele Ginesi, Ph.D.
+    </footer>
+  </main>
+</body>
+</html>
+
+
